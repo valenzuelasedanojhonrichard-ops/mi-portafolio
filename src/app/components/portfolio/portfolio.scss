@@ -1,0 +1,41 @@
+.btn {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #24292e;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+.card {
+  width: 300px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card a {
+  margin-top: auto; /* 👈 empuja el botón hacia abajo */
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px; /* 👈 separa las cards */
+  padding: 20px;
+}

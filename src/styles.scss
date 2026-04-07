@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import './app/styles/variables';
+@import './app/styles/mixins';
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f1a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 70px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+
+  background: linear-gradient(
+    135deg,
+    #6a0dad,
+    #1e1e2f,
+    #00c9a7
+  );
+}
+section {
+  padding: 80px 20px;
+}
